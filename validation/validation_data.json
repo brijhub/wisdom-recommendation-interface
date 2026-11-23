@@ -1,0 +1,118 @@
+{
+  "description": "SP01 retrieval validation. Each case is a short interaction with a metadata predicate identifying its relevant SME calibration feedback.",
+  "k_values": [3, 5, 6],
+  "cases": [
+    {
+      "id": "strong_prework",
+      "title": "Concrete site preparation before pitching",
+      "transcript": "[00:10] Ranjit: Proposal dekha? Site visit kiya tha?\n[00:16] Officer: Ji. Kal tower 3 aur 4 dekhe. West exposure open hai aur elevation grooves zyada hain, isliye coverage actual surface condition par rakha hai. Pehle BOQ ke against do points discuss karna chahta hoon.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 1", "topic": "SP1"}
+      ]
+    },
+    {
+      "id": "weak_prework",
+      "title": "Brand pitch without visiting the site",
+      "transcript": "[00:05] Ranjit: Site dekh li?\n[00:08] Officer: Abhi visit nahi kiya, lekin drawing padh li. Hamari company market leader hai aur quality mein kisi se kam nahi. Main premium product explain karta hoon.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 2", "topic": "SP1"}
+      ]
+    },
+    {
+      "id": "two_proposal_choice",
+      "title": "BOQ-compliant and costed-upgrade choices",
+      "transcript": "[01:20] Officer: Ek proposal exactly aapke BOQ ke hisaab se hai. Doosre mein do upgrades hain aur cost difference alag column mein diya hai. Aap line-by-line compare karke jo suitable ho choose kijiye.\n[01:42] Ranjit: Dono proposal aur comparison sheet de dijiye.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 1", "topic": "SP2"}
+      ]
+    },
+    {
+      "id": "strong_failure_diagnosis",
+      "title": "Ownership, diagnosis, and execution controls",
+      "transcript": "[02:30] Ranjit: Pichhle project mein do saal mein patches aa gaye.\n[02:38] Officer: Execution ki responsibility company ki bhi hai. Kaam kis season mein hua aur coat interval kya tha?\n[03:10] Ranjit: Monsoon mein start hua tha.\n[03:18] Officer: Is baar trained applicator, surface-readiness sign-off, wall-level consumption reconciliation aur weekly monitoring rakhenge.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 1", "topic": "SP3"}
+      ]
+    },
+    {
+      "id": "weak_failure_diagnosis",
+      "title": "Blaming application before asking questions",
+      "transcript": "[01:25] Ranjit: Isi product mein pichhli baar patches aaye the.\n[01:31] Officer: Application galat hui hogi. Surface preparation theek na ho toh product kya karega? Hamara product bilkul theek hai.\n[01:44] Ranjit: Matlab galti hamari thi?",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 2", "topic": "SP3"}
+      ]
+    },
+    {
+      "id": "unsupported_competitor_claim",
+      "title": "Unverified criticism of the incumbent",
+      "transcript": "[02:20] Ranjit: Vanguard das saal se hamare saath hai. Aapko kyun consider karein?\n[02:28] Officer: Company achhi hai, par suna hai unki service aur supply aajkal weak hai.\n[02:40] Ranjit: Kahan suna?\n[02:43] Officer: Market mein baatein hoti rehti hain.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 2", "topic": "SP4"}
+      ]
+    },
+    {
+      "id": "evidence_based_competition",
+      "title": "Grant incumbent quality and ask for sampling",
+      "transcript": "[05:05] Ranjit: Existing supplier se koi complaint nahi.\n[05:12] Officer: Unka product achha hai. Main unhe remove karne ko nahi keh raha. Humein bhi sampling list mein rakhiye aur west-exposure wali hamari three-year-old site verify kar lijiye.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 1", "topic": "SP4"}
+      ]
+    },
+    {
+      "id": "coverage_rate_manipulation",
+      "title": "Reducing apparent cost through unsupported coverage",
+      "transcript": "[03:00] Ranjit: Rate kya rahega?\n[03:06] Officer: Vanguard se kam hi dunga. Coverage ko thoda practical maan lete hain toh consumption kam dikhega aur total cost neeche aa jayegi.\n[03:24] Ranjit: Coverage badal kaise sakte ho?",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 2", "topic": "SP5"}
+      ]
+    },
+    {
+      "id": "commercial_overpromise",
+      "title": "Unsupported validity and tripartite promises",
+      "transcript": "[04:05] Ranjit: Rate 12 months hold chahiye.\n[04:11] Officer: Difficult hai, par aapke liye ho jayega. Senior se baat karke karwa dunga.\n[05:00] Ranjit: Tripartite agreement bhi chahiye.\n[05:07] Officer: Project bada hai, mujhe lagta hai woh bhi ho jana chahiye.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 2", "topic": "SP6"}
+      ]
+    },
+    {
+      "id": "commercial_discipline",
+      "title": "Holding boundaries while offering controlled alternatives",
+      "transcript": "[06:40] Ranjit: Twelve-month written validity de do.\n[06:48] Officer: Six months standard hai. Raw-material movement mere control mein nahi, isliye main false commitment nahi dunga; market changes aaye toh cooperative discussion karenge.\n[08:35] Officer: Tripartite legal allow nahi karta, lekin written warranty, monitoring, reconciliation aur applicator accountability de sakta hoon.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 1", "topic": "SP6"}
+      ]
+    },
+    {
+      "id": "strong_close",
+      "title": "Specific deliverables, timing, and next meeting",
+      "transcript": "[09:15] Ranjit: Details mail kar dena.\n[09:20] Officer: Aaj shaam dono proposals, BOQ comparison aur two client references bhejunga. Revised quotation kal evening tak. Do din baad call karke applicator ke saath meeting time lock karte hain.\n[09:45] Ranjit: Revised quotation bhejo aur call kar lena.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 1", "topic": "SP7"}
+      ]
+    },
+    {
+      "id": "weak_close",
+      "title": "Accepting send-details without a dated next step",
+      "transcript": "[05:45] Ranjit: Project list, applicator list aur comparison mail kar do; dekh kar connect karenge.\n[05:55] Officer: Ji, kal tak bhej dunga. Main follow-up karta rahunga. Month end hai, jaldi dekh lijiyega.\n[06:20] Ranjit: Haan, dekh lenge.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 2", "topic": "SP7"}
+      ]
+    },
+    {
+      "id": "unsupported_metric",
+      "title": "Unverifiable 95 percent performance claim",
+      "transcript": "[03:35] Officer: Hamare proposed applicators ke 95 percent projects time par aur bina rework close hote hain.\n[03:44] Ranjit: 95 percent? Data dikha sakte ho?\n[03:49] Officer: Exact report abhi nahi hai, par record bahut strong hai.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 1", "topic": "SP8"}
+      ]
+    },
+    {
+      "id": "service_before_rate",
+      "title": "Performance and service substance before price",
+      "transcript": "[05:40] Ranjit: Product sab same hain; rate batao.\n[05:46] Officer: Rate revised quotation mein clear rahega. Pehle execution substance: fourteen towers ki supply planning, weekly site report, consumption reconciliation aur documentation support. Price actual coverage par hi calculate hoga.",
+      "relevant_metadata": [
+        {"record_type": "calibration_feedback", "sheet": "Transcript 1", "topic": "SP5"}
+      ]
+    }
+  ]
+}

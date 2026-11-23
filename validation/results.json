@@ -1,0 +1,1505 @@
+{
+  "dataset": "validation\\validation_data.json",
+  "embedding_model": "text-embedding-3-small",
+  "collection": "wisdom_knowledge",
+  "collection_size": 295,
+  "case_count": 14,
+  "metric_definitions": {
+    "hit_rate": "Fraction of cases with at least one labelled relevant chunk in the top k.",
+    "precision": "Mean labelled relevant chunks retrieved divided by k.",
+    "recall": "Mean labelled relevant chunks retrieved divided by all labelled relevant chunks for that case.",
+    "mrr": "Mean reciprocal rank of the first labelled relevant chunk; zero when absent from the top k."
+  },
+  "aggregate": {
+    "3": {
+      "hit_rate": 0.6428571428571429,
+      "precision": 0.21428571428571427,
+      "recall": 0.32142857142857145,
+      "mrr": 0.41666666666666663
+    },
+    "5": {
+      "hit_rate": 0.7142857142857143,
+      "precision": 0.17142857142857146,
+      "recall": 0.42857142857142855,
+      "mrr": 0.4345238095238095
+    },
+    "6": {
+      "hit_rate": 0.7857142857142857,
+      "precision": 0.15476190476190474,
+      "recall": 0.4642857142857143,
+      "mrr": 0.44642857142857145
+    }
+  },
+  "cases": [
+    {
+      "id": "strong_prework",
+      "title": "Concrete site preparation before pitching",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        },
+        "5": {
+          "hit": 1,
+          "precision": 0.2,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.16666666666666666,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "3e388c1d51d99ece644cb25e5eade93deba52e7c7ec6266dd2d90a0d28257516",
+          "relevant": false,
+          "score": 0.638627,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "A",
+          "row_start": 5,
+          "excerpt": "Sheet: Part 2 single moments\nx: A\nWhat the officer is doing: Answering whether he has seen the site.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Gives generic answer (\"achha project hai, badhiya location\") instead of site-specific technical observations.\nIf it is wrong, what would you say instead?: \"Ji sir, gaya tha. Tower 3 aur 4 ki taraf plaster complete hai, west "
+        },
+        {
+          "rank": 2,
+          "id": "4a1a5f7760f94a58c7198169538b574b9f0eaedb5e385dde93a2e01afe0ecc4a",
+          "relevant": false,
+          "score": 0.621432,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP1",
+          "row_start": 4,
+          "excerpt": "Sheet: Transcript 2\nRow: SP1\nWhat it grades: 1. Pre-work and requirement-first opening\nWhat to look for: Did he show he had read the BOQ and seen the site, with something concrete, before saying anything about his own company?\nYour level: Developing\nWhy this level?: He demonstrates that he has read the BOQ, but has not visited the site. Since the requirement specifically asks for both BOQ and site"
+        },
+        {
+          "rank": 3,
+          "id": "a9d039918a1f372420f311630eaf6b0bb89cd5e1ef6f2f4f215c5f6923515f1f",
+          "relevant": true,
+          "score": 0.569516,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP1",
+          "row_start": 4,
+          "excerpt": "Sheet: Transcript 1\nRow: SP1\nWhat it grades: 1. Pre-work and requirement-first opening\nWhat to look for: Did he show he had read the BOQ and seen the site, with something concrete, before saying anything about his own company?\nYour level: Expert\nWhy this level?: This is exactly what the skill asks for. He establishes BOQ preparation + site visit + concrete observations before talking about his com"
+        },
+        {
+          "rank": 4,
+          "id": "acfdcb4a21b9bee4153018f65a04a1887cfdf3633bec36387eed3a028a59bc23",
+          "relevant": false,
+          "score": 0.530918,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Waise sir aap hi bata dijiye kitne pe kar sakte hain, main us hisaab se bhej deta hoon.\nHe is allowing the builder to set the benchmark rather than presenting a justified commercial proposal.\nIf it is wrong, what would you say instead?:"
+        },
+        {
+          "rank": 5,
+          "id": "8f71146b3cba829bc4d4a9448ae53f82cf01b1c452d0ebb8a4c086deebb3606a",
+          "relevant": false,
+          "score": 0.527054,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "A",
+          "row_start": 5,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: A\nWhat the officer is doing: Answering whether he has seen the site.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Achha project hai, badhiya location hai, kaafi bada scale hai\nIf it is wrong, what would you say instead?: He should also mention the existing surface condition and clarify whether any waterproofing, grouting, or othe"
+        },
+        {
+          "rank": 6,
+          "id": "f9ddf5a4881a7f2203375b616026853c893715fd31da2aec8ae22c45bcfbb69b",
+          "relevant": false,
+          "score": 0.52338,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP2",
+          "row_start": 5,
+          "excerpt": "Sheet: Transcript 1\nRow: SP2\nWhat it grades: 2. Two-proposal craft\nWhat to look for: Did he give a spec-compliant proposal AND a costed upgrade as the buyer's choice, with a comparison sheet, without attacking the written specification?\nYour level: Expert\nWhy this level?: He does not challenge the specification. He gives Ranjit a compliant option and an alternative, makes the cost difference visib"
+        }
+      ]
+    },
+    {
+      "id": "weak_prework",
+      "title": "Brand pitch without visiting the site",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        },
+        "5": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        },
+        "6": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "a9d039918a1f372420f311630eaf6b0bb89cd5e1ef6f2f4f215c5f6923515f1f",
+          "relevant": false,
+          "score": 0.515584,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP1",
+          "row_start": 4,
+          "excerpt": "Sheet: Transcript 1\nRow: SP1\nWhat it grades: 1. Pre-work and requirement-first opening\nWhat to look for: Did he show he had read the BOQ and seen the site, with something concrete, before saying anything about his own company?\nYour level: Expert\nWhy this level?: This is exactly what the skill asks for. He establishes BOQ preparation + site visit + concrete observations before talking about his com"
+        },
+        {
+          "rank": 2,
+          "id": "3e388c1d51d99ece644cb25e5eade93deba52e7c7ec6266dd2d90a0d28257516",
+          "relevant": false,
+          "score": 0.508535,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "A",
+          "row_start": 5,
+          "excerpt": "Sheet: Part 2 single moments\nx: A\nWhat the officer is doing: Answering whether he has seen the site.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Gives generic answer (\"achha project hai, badhiya location\") instead of site-specific technical observations.\nIf it is wrong, what would you say instead?: \"Ji sir, gaya tha. Tower 3 aur 4 ki taraf plaster complete hai, west "
+        },
+        {
+          "rank": 3,
+          "id": "7e232e3c19b80954184492a4c274e1ecd07128893647420b11361f7a5ab401b6",
+          "relevant": false,
+          "score": 0.487701,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nx: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Makes an unverified negative claim about a competitor's declining service, violating policy.\nIf it is wrong, what would you say instead?: \"Unka product achha hai, par hum aapko exact site-based coverage, sampling/mockup, named tr"
+        },
+        {
+          "rank": 4,
+          "id": "e9f89b71753f51b91da4c15bbdbb6ad79f735c4259782263ad3f649983db2ede",
+          "relevant": false,
+          "score": 0.485715,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nx: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Weakly asks the buyer to name their target price (\"aap hi bata dijiye kitne pe kar sakte hain\"), surrendering price authority.\nIf it is wrong, what would you say instead?: \"Ji sir. Main revised quotation and comparison sheet shaam tak mail kar"
+        },
+        {
+          "rank": 5,
+          "id": "a4871aaf8114a6942a89df6f5d0f9bf83b0fe74afc2f96abb22d4107359f1d78",
+          "relevant": false,
+          "score": 0.482997,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: It is not correct to blame the competition without having any proof or a specific incident to support the statement. Giving random or unsubstantiated reasons can make it appear that you are saying it just for the sake of s"
+        },
+        {
+          "rank": 6,
+          "id": "acfdcb4a21b9bee4153018f65a04a1887cfdf3633bec36387eed3a028a59bc23",
+          "relevant": false,
+          "score": 0.47919,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Waise sir aap hi bata dijiye kitne pe kar sakte hain, main us hisaab se bhej deta hoon.\nHe is allowing the builder to set the benchmark rather than presenting a justified commercial proposal.\nIf it is wrong, what would you say instead?:"
+        }
+      ]
+    },
+    {
+      "id": "two_proposal_choice",
+      "title": "BOQ-compliant and costed-upgrade choices",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 1
+        },
+        "5": {
+          "hit": 1,
+          "precision": 0.4,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 2
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 2
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "f9ddf5a4881a7f2203375b616026853c893715fd31da2aec8ae22c45bcfbb69b",
+          "relevant": true,
+          "score": 0.656519,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP2",
+          "row_start": 5,
+          "excerpt": "Sheet: Transcript 1\nRow: SP2\nWhat it grades: 2. Two-proposal craft\nWhat to look for: Did he give a spec-compliant proposal AND a costed upgrade as the buyer's choice, with a comparison sheet, without attacking the written specification?\nYour level: Expert\nWhy this level?: He does not challenge the specification. He gives Ranjit a compliant option and an alternative, makes the cost difference visib"
+        },
+        {
+          "rank": 2,
+          "id": "455d91103411bd16b44a2d6759ce5a8f5bf6a7fb72e7863d22b3cbe31b3f5439",
+          "relevant": false,
+          "score": 0.598008,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP2",
+          "row_start": 5,
+          "excerpt": "Sheet: Transcript 2\nRow: SP2\nWhat it grades: 2. Two-proposal craft\nWhat to look for: Did he give a spec-compliant proposal AND a costed upgrade as the buyer's choice, with a comparison sheet, without attacking the written specification?\nYour level: Developing\nWhy this level?: He provides the BOQ-compliant proposal, but does not actually put forward a properly costed upgrade proposal. He only says "
+        },
+        {
+          "rank": 3,
+          "id": "d02944332dbde62b5f6ee1f37af9d3cb81323666350a08df5ab4c60beca9fe04",
+          "relevant": false,
+          "score": 0.54193,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP7",
+          "row_start": 10,
+          "excerpt": "Sheet: Transcript 1\nRow: SP7\nWhat it grades: 7. Close craft and commitment specificity\nWhat to look for: Did he get the revised quotation asked for, name what he sends and when, and get a forward step with a real timeframe? Or did he accept 'mail the details'?\nYour level: Expert\nWhy this level?: He converts “send details” into specific deliverables + deadline + next interaction. He also plans to b"
+        },
+        {
+          "rank": 4,
+          "id": "7587d244f1b6acbf66c4849b9318e2afa9d348f4c526447c76402425db2136cd",
+          "relevant": true,
+          "score": 0.533999,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP2",
+          "row_start": 5,
+          "excerpt": "Sheet: Transcript 1\nRow: SP2\nWhat it grades: 2. Two-proposal craft\nWhat to look for: Did he give a spec-compliant proposal AND a costed upgrade as the buyer's choice, with a comparison sheet, without attacking the written specification?\nYour level: Developing\nDeciding moment1 (mm:ss): He correctly worked out the two options for the builder, which is a good approach to presenting the case. However,"
+        },
+        {
+          "rank": 5,
+          "id": "e9f89b71753f51b91da4c15bbdbb6ad79f735c4259782263ad3f649983db2ede",
+          "relevant": false,
+          "score": 0.529107,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nx: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Weakly asks the buyer to name their target price (\"aap hi bata dijiye kitne pe kar sakte hain\"), surrendering price authority.\nIf it is wrong, what would you say instead?: \"Ji sir. Main revised quotation and comparison sheet shaam tak mail kar"
+        },
+        {
+          "rank": 6,
+          "id": "acfdcb4a21b9bee4153018f65a04a1887cfdf3633bec36387eed3a028a59bc23",
+          "relevant": false,
+          "score": 0.526439,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Waise sir aap hi bata dijiye kitne pe kar sakte hain, main us hisaab se bhej deta hoon.\nHe is allowing the builder to set the benchmark rather than presenting a justified commercial proposal.\nIf it is wrong, what would you say instead?:"
+        }
+      ]
+    },
+    {
+      "id": "strong_failure_diagnosis",
+      "title": "Ownership, diagnosis, and execution controls",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        },
+        "5": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        },
+        "6": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "c0c8d5582c08a7f0c7b1d3173f8882ed8eab3c407658943efaa2b0e3b1d09a11",
+          "relevant": false,
+          "score": 0.605166,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": null,
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: here he talked about the weekly report and coordination and give him assurance we are here.\nIf it is wrong, what would you say instead?: “Sir, humara representative site visit weekly karega aur uski report aapke Tower In-charge E"
+        },
+        {
+          "rank": 2,
+          "id": "962c70df50d39ae20669a61e522ddd170f42b173bf9ff4761117277fd9481309",
+          "relevant": false,
+          "score": 0.598609,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "D",
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nx: D\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: Promises weekly reports and coordination.\nIf it is wrong, what would you say instead?: \"Har hafte site visit aur report ke alawa, hum application shuru hone se pehle surface readiness sign-off karenge aur M+L payment ke agai"
+        },
+        {
+          "rank": 3,
+          "id": "a4871aaf8114a6942a89df6f5d0f9bf83b0fe74afc2f96abb22d4107359f1d78",
+          "relevant": false,
+          "score": 0.572659,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: It is not correct to blame the competition without having any proof or a specific incident to support the statement. Giving random or unsubstantiated reasons can make it appear that you are saying it just for the sake of s"
+        },
+        {
+          "rank": 4,
+          "id": "8f71146b3cba829bc4d4a9448ae53f82cf01b1c452d0ebb8a4c086deebb3606a",
+          "relevant": false,
+          "score": 0.534698,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "A",
+          "row_start": 5,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: A\nWhat the officer is doing: Answering whether he has seen the site.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Achha project hai, badhiya location hai, kaafi bada scale hai\nIf it is wrong, what would you say instead?: He should also mention the existing surface condition and clarify whether any waterproofing, grouting, or othe"
+        },
+        {
+          "rank": 5,
+          "id": "7e232e3c19b80954184492a4c274e1ecd07128893647420b11361f7a5ab401b6",
+          "relevant": false,
+          "score": 0.53022,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nx: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Makes an unverified negative claim about a competitor's declining service, violating policy.\nIf it is wrong, what would you say instead?: \"Unka product achha hai, par hum aapko exact site-based coverage, sampling/mockup, named tr"
+        },
+        {
+          "rank": 6,
+          "id": "6bc9b6c8262f7b52eced8815b6e967ce10f80efc6b81baf43a871e90e94ce031",
+          "relevant": false,
+          "score": 0.526944,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP7",
+          "row_start": 10,
+          "excerpt": "Sheet: Transcript 2\nRow: SP7\nWhat it grades: 7. Close craft and commitment specificity\nWhat to look for: Did he get the revised quotation asked for, name what he sends and when, and get a forward step with a real timeframe? Or did he accept 'mail the details'?\nYour level: Competent\nWhy this level?: He does secure specific deliverables and a deadline, which is good. However, there is no genuine for"
+        }
+      ]
+    },
+    {
+      "id": "weak_failure_diagnosis",
+      "title": "Blaming application before asking questions",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        },
+        "5": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.16666666666666666,
+          "recall": 0.5,
+          "reciprocal_rank": 0.16666666666666666,
+          "first_relevant_rank": 6,
+          "relevant_retrieved": 1
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "93ab8b97a5d25396b76de3e936d3615a2e4b64c0ea478caad6652c11fb2bdab1",
+          "relevant": false,
+          "score": 0.500638,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "C",
+          "row_start": 7,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: C\nWhat the officer is doing: Answering the past product failure.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: Good to see that he takes ownership  \"Painting mein execution ki zimmedari sirf applicator ki nahi hoti, company bhi usme barabar ki hoti hai.\"\nIf it is wrong, what would you say instead?: As an expert, the first thing I s"
+        },
+        {
+          "rank": 2,
+          "id": "a4871aaf8114a6942a89df6f5d0f9bf83b0fe74afc2f96abb22d4107359f1d78",
+          "relevant": false,
+          "score": 0.498045,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: It is not correct to blame the competition without having any proof or a specific incident to support the statement. Giving random or unsubstantiated reasons can make it appear that you are saying it just for the sake of s"
+        },
+        {
+          "rank": 3,
+          "id": "7e232e3c19b80954184492a4c274e1ecd07128893647420b11361f7a5ab401b6",
+          "relevant": false,
+          "score": 0.497801,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nx: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Makes an unverified negative claim about a competitor's declining service, violating policy.\nIf it is wrong, what would you say instead?: \"Unka product achha hai, par hum aapko exact site-based coverage, sampling/mockup, named tr"
+        },
+        {
+          "rank": 4,
+          "id": "d9a1dc99d3e69747fb3c2b4626eb244455157d8bc0e4872b343e625a23f380ed",
+          "relevant": false,
+          "score": 0.493037,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "C",
+          "row_start": 7,
+          "excerpt": "Sheet: Part 2 single moments\nx: C\nWhat the officer is doing: Answering the past product failure.\nYour grade: Expert\nWhy. What does it cost, and when is it discovered?: Takes ownership (\"humari bhi zimmedari banti hai\") while diagnosing concrete, technical root causes (poor surface prep, monsoon start, lack of drying gap).\nIf it is wrong, what would you say instead?: Correct Response."
+        },
+        {
+          "rank": 5,
+          "id": "8f71146b3cba829bc4d4a9448ae53f82cf01b1c452d0ebb8a4c086deebb3606a",
+          "relevant": false,
+          "score": 0.48977,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "A",
+          "row_start": 5,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: A\nWhat the officer is doing: Answering whether he has seen the site.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Achha project hai, badhiya location hai, kaafi bada scale hai\nIf it is wrong, what would you say instead?: He should also mention the existing surface condition and clarify whether any waterproofing, grouting, or othe"
+        },
+        {
+          "rank": 6,
+          "id": "c32ca2c71a772a2019a37a2a6f47e4b2ea20d0c55c0a6fcfea75b1adb739e9e2",
+          "relevant": true,
+          "score": 0.486388,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP3",
+          "row_start": 6,
+          "excerpt": "Sheet: Transcript 2\nRow: SP3\nWhat it grades: 3. Failure diagnosis and the ownership mechanism\nWhat to look for: Did he own execution first, diagnose with questions, name one likely cause rather than a list, and then put a real mechanism on the table: applicator, surface sign-off, consumption reconciliation, weekly monitoring?\nYour level: Developing\nWhy this level?: He does not properly diagnose th"
+        }
+      ]
+    },
+    {
+      "id": "unsupported_competitor_claim",
+      "title": "Unverified criticism of the incumbent",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 1
+        },
+        "5": {
+          "hit": 1,
+          "precision": 0.2,
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 1
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.16666666666666666,
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 1
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "927e8bfafc995aeeda2abed324e3e8f1449007a0bfb76148f0f68229ca70afd0",
+          "relevant": true,
+          "score": 0.545549,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP4",
+          "row_start": 7,
+          "excerpt": "Sheet: Transcript 2\nRow: SP4\nWhat it grades: 4. Competitive conduct and the sampling ask\nWhat to look for: Did he grant the incumbent's quality, avoid any claim he cannot support, and move it to sampling or a site visit? (Skip if it did not come up.)\nYour level: Developing\nWhy this level?: He does give Vanguard some credit for being a good company, but then makes an unsupported competitor-service "
+        },
+        {
+          "rank": 2,
+          "id": "0c6552807bafe1e1212b94b6cc79784c5d97e70bcae79891b974fdab923aee95",
+          "relevant": false,
+          "score": 0.506819,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Line flags",
+          "transcript": null,
+          "topic": "4",
+          "row_start": 11,
+          "excerpt": "Sheet: Line flags\n#: 4\nTranscript: Transcript 2\nTime (mm:ss): 03:07\nWhat is wrong: Other\nWhat a real person would say?: His company would not allow it: \"Vanguard se kam hi rahega. Aap bas bata dijiye kitne mein baat banegi\", without knowing the competition rate."
+        },
+        {
+          "rank": 3,
+          "id": "7e232e3c19b80954184492a4c274e1ecd07128893647420b11361f7a5ab401b6",
+          "relevant": false,
+          "score": 0.490313,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nx: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Makes an unverified negative claim about a competitor's declining service, violating policy.\nIf it is wrong, what would you say instead?: \"Unka product achha hai, par hum aapko exact site-based coverage, sampling/mockup, named tr"
+        },
+        {
+          "rank": 4,
+          "id": "a4871aaf8114a6942a89df6f5d0f9bf83b0fe74afc2f96abb22d4107359f1d78",
+          "relevant": false,
+          "score": 0.475391,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: It is not correct to blame the competition without having any proof or a specific incident to support the statement. Giving random or unsubstantiated reasons can make it appear that you are saying it just for the sake of s"
+        },
+        {
+          "rank": 5,
+          "id": "e9f89b71753f51b91da4c15bbdbb6ad79f735c4259782263ad3f649983db2ede",
+          "relevant": false,
+          "score": 0.469893,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nx: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Weakly asks the buyer to name their target price (\"aap hi bata dijiye kitne pe kar sakte hain\"), surrendering price authority.\nIf it is wrong, what would you say instead?: \"Ji sir. Main revised quotation and comparison sheet shaam tak mail kar"
+        },
+        {
+          "rank": 6,
+          "id": "962c70df50d39ae20669a61e522ddd170f42b173bf9ff4761117277fd9481309",
+          "relevant": false,
+          "score": 0.466214,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "D",
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nx: D\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: Promises weekly reports and coordination.\nIf it is wrong, what would you say instead?: \"Har hafte site visit aur report ke alawa, hum application shuru hone se pehle surface readiness sign-off karenge aur M+L payment ke agai"
+        }
+      ]
+    },
+    {
+      "id": "evidence_based_competition",
+      "title": "Grant incumbent quality and ask for sampling",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "reciprocal_rank": 0.5,
+          "first_relevant_rank": 2,
+          "relevant_retrieved": 1
+        },
+        "5": {
+          "hit": 1,
+          "precision": 0.2,
+          "recall": 0.5,
+          "reciprocal_rank": 0.5,
+          "first_relevant_rank": 2,
+          "relevant_retrieved": 1
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.16666666666666666,
+          "recall": 0.5,
+          "reciprocal_rank": 0.5,
+          "first_relevant_rank": 2,
+          "relevant_retrieved": 1
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "7e232e3c19b80954184492a4c274e1ecd07128893647420b11361f7a5ab401b6",
+          "relevant": false,
+          "score": 0.50864,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nx: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Makes an unverified negative claim about a competitor's declining service, violating policy.\nIf it is wrong, what would you say instead?: \"Unka product achha hai, par hum aapko exact site-based coverage, sampling/mockup, named tr"
+        },
+        {
+          "rank": 2,
+          "id": "25ffe3678c31f473531620f26cfe84b0f55fcbb0b6fdf445b7b5d4e50342cd2a",
+          "relevant": true,
+          "score": 0.481236,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP4",
+          "row_start": 7,
+          "excerpt": "Sheet: Transcript 1\nRow: SP4\nWhat it grades: 4. Competitive conduct and the sampling ask\nWhat to look for: Did he grant the incumbent's quality, avoid any claim he cannot support, and move it to sampling or a site visit? (Skip if it did not come up.)\nYour level: Expert\nWhy this level?: Exactly right. He gives the incumbent credit, does not attack Vanguard, and shifts the discussion from claims to "
+        },
+        {
+          "rank": 3,
+          "id": "927e8bfafc995aeeda2abed324e3e8f1449007a0bfb76148f0f68229ca70afd0",
+          "relevant": false,
+          "score": 0.480258,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP4",
+          "row_start": 7,
+          "excerpt": "Sheet: Transcript 2\nRow: SP4\nWhat it grades: 4. Competitive conduct and the sampling ask\nWhat to look for: Did he grant the incumbent's quality, avoid any claim he cannot support, and move it to sampling or a site visit? (Skip if it did not come up.)\nYour level: Developing\nWhy this level?: He does give Vanguard some credit for being a good company, but then makes an unsupported competitor-service "
+        },
+        {
+          "rank": 4,
+          "id": "93ab8b97a5d25396b76de3e936d3615a2e4b64c0ea478caad6652c11fb2bdab1",
+          "relevant": false,
+          "score": 0.457368,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "C",
+          "row_start": 7,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: C\nWhat the officer is doing: Answering the past product failure.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: Good to see that he takes ownership  \"Painting mein execution ki zimmedari sirf applicator ki nahi hoti, company bhi usme barabar ki hoti hai.\"\nIf it is wrong, what would you say instead?: As an expert, the first thing I s"
+        },
+        {
+          "rank": 5,
+          "id": "c0c8d5582c08a7f0c7b1d3173f8882ed8eab3c407658943efaa2b0e3b1d09a11",
+          "relevant": false,
+          "score": 0.447893,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": null,
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: here he talked about the weekly report and coordination and give him assurance we are here.\nIf it is wrong, what would you say instead?: “Sir, humara representative site visit weekly karega aur uski report aapke Tower In-charge E"
+        },
+        {
+          "rank": 6,
+          "id": "a4871aaf8114a6942a89df6f5d0f9bf83b0fe74afc2f96abb22d4107359f1d78",
+          "relevant": false,
+          "score": 0.44495,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: It is not correct to blame the competition without having any proof or a specific incident to support the statement. Giving random or unsubstantiated reasons can make it appear that you are saying it just for the sake of s"
+        }
+      ]
+    },
+    {
+      "id": "coverage_rate_manipulation",
+      "title": "Reducing apparent cost through unsupported coverage",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 1
+        },
+        "5": {
+          "hit": 1,
+          "precision": 0.4,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 2
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 2
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "49769879664fbfa6ad3693f04fd0d5d04efbfc321d2364551d1357e25753dda6",
+          "relevant": true,
+          "score": 0.598041,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP5",
+          "row_start": 8,
+          "excerpt": "Sheet: Transcript 2\nRow: SP5\nWhat it grades: 5. Rate deflection and service substance\nWhat to look for: Did he answer the rate question with performance AND specific service substance before quoting, and stay inside honest coverage and consumption?\nYour level: Developing\nWhy this level?: This is a significant weakness. Instead of answering rate with performance + specific service substance, he imm"
+        },
+        {
+          "rank": 2,
+          "id": "927e8bfafc995aeeda2abed324e3e8f1449007a0bfb76148f0f68229ca70afd0",
+          "relevant": false,
+          "score": 0.504811,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP4",
+          "row_start": 7,
+          "excerpt": "Sheet: Transcript 2\nRow: SP4\nWhat it grades: 4. Competitive conduct and the sampling ask\nWhat to look for: Did he grant the incumbent's quality, avoid any claim he cannot support, and move it to sampling or a site visit? (Skip if it did not come up.)\nYour level: Developing\nWhy this level?: He does give Vanguard some credit for being a good company, but then makes an unsupported competitor-service "
+        },
+        {
+          "rank": 3,
+          "id": "13e958ce79f139b5a5e1c9db5088db70b53a961bc3c01f61cdea65d355aea5eb",
+          "relevant": false,
+          "score": 0.491451,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP5",
+          "row_start": 8,
+          "excerpt": "Sheet: Transcript 1\nRow: SP5\nWhat it grades: 5. Rate deflection and service substance\nWhat to look for: Did he answer the rate question with performance AND specific service substance before quoting, and stay inside honest coverage and consumption?\nYour level: Expert\nWhy this level?: He doesn't evade the rate issue completely. He first establishes the value proposition through performance, supply "
+        },
+        {
+          "rank": 4,
+          "id": "5c27ecaa561d2f5da2679fcc2e70404c6842a3dd615aaf586a581765ba164e80",
+          "relevant": false,
+          "score": 0.49046,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP8",
+          "row_start": 11,
+          "excerpt": "Sheet: Transcript 2\nRow: SP8\nWhat it grades: 8. Conversational dynamics and claim discipline\nWhat to look for: Did he answer the question actually asked? Courteous without flattery, no begging, no relationship appeals, nothing claimed outside what he can support?\nYour level: Developing\nWhy this level?: Sandeep is generally polite, but he repeatedly says things he cannot substantiate or control. He"
+        },
+        {
+          "rank": 5,
+          "id": "01db1325bb03939ef6272f664037b4dec3d282a8bc11f7ce5a385d0d217c2dd1",
+          "relevant": true,
+          "score": 0.483747,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP5",
+          "row_start": 8,
+          "excerpt": "Sheet: Transcript 2\nRow: SP5\nWhat it grades: 5. Rate deflection and service substance\nWhat to look for: Did he answer the rate question with performance AND specific service substance before quoting, and stay inside honest coverage and consumption?\nYour level: Did not come up\nDeciding moment1 (mm:ss): There was a lack of transparency and honesty in the discussion around the coverage claim. The con"
+        },
+        {
+          "rank": 6,
+          "id": "0c6552807bafe1e1212b94b6cc79784c5d97e70bcae79891b974fdab923aee95",
+          "relevant": false,
+          "score": 0.482879,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Line flags",
+          "transcript": null,
+          "topic": "4",
+          "row_start": 11,
+          "excerpt": "Sheet: Line flags\n#: 4\nTranscript: Transcript 2\nTime (mm:ss): 03:07\nWhat is wrong: Other\nWhat a real person would say?: His company would not allow it: \"Vanguard se kam hi rahega. Aap bas bata dijiye kitne mein baat banegi\", without knowing the competition rate."
+        }
+      ]
+    },
+    {
+      "id": "commercial_overpromise",
+      "title": "Unsupported validity and tripartite promises",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        },
+        "5": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        },
+        "6": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "acfdcb4a21b9bee4153018f65a04a1887cfdf3633bec36387eed3a028a59bc23",
+          "relevant": false,
+          "score": 0.527472,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Waise sir aap hi bata dijiye kitne pe kar sakte hain, main us hisaab se bhej deta hoon.\nHe is allowing the builder to set the benchmark rather than presenting a justified commercial proposal.\nIf it is wrong, what would you say instead?:"
+        },
+        {
+          "rank": 2,
+          "id": "962c70df50d39ae20669a61e522ddd170f42b173bf9ff4761117277fd9481309",
+          "relevant": false,
+          "score": 0.505731,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "D",
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nx: D\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: Promises weekly reports and coordination.\nIf it is wrong, what would you say instead?: \"Har hafte site visit aur report ke alawa, hum application shuru hone se pehle surface readiness sign-off karenge aur M+L payment ke agai"
+        },
+        {
+          "rank": 3,
+          "id": "6bc9b6c8262f7b52eced8815b6e967ce10f80efc6b81baf43a871e90e94ce031",
+          "relevant": false,
+          "score": 0.499094,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP7",
+          "row_start": 10,
+          "excerpt": "Sheet: Transcript 2\nRow: SP7\nWhat it grades: 7. Close craft and commitment specificity\nWhat to look for: Did he get the revised quotation asked for, name what he sends and when, and get a forward step with a real timeframe? Or did he accept 'mail the details'?\nYour level: Competent\nWhy this level?: He does secure specific deliverables and a deadline, which is good. However, there is no genuine for"
+        },
+        {
+          "rank": 4,
+          "id": "a4871aaf8114a6942a89df6f5d0f9bf83b0fe74afc2f96abb22d4107359f1d78",
+          "relevant": false,
+          "score": 0.492802,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: It is not correct to blame the competition without having any proof or a specific incident to support the statement. Giving random or unsubstantiated reasons can make it appear that you are saying it just for the sake of s"
+        },
+        {
+          "rank": 5,
+          "id": "e9f89b71753f51b91da4c15bbdbb6ad79f735c4259782263ad3f649983db2ede",
+          "relevant": false,
+          "score": 0.489753,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nx: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Weakly asks the buyer to name their target price (\"aap hi bata dijiye kitne pe kar sakte hain\"), surrendering price authority.\nIf it is wrong, what would you say instead?: \"Ji sir. Main revised quotation and comparison sheet shaam tak mail kar"
+        },
+        {
+          "rank": 6,
+          "id": "c0c8d5582c08a7f0c7b1d3173f8882ed8eab3c407658943efaa2b0e3b1d09a11",
+          "relevant": false,
+          "score": 0.488429,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": null,
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: here he talked about the weekly report and coordination and give him assurance we are here.\nIf it is wrong, what would you say instead?: “Sir, humara representative site visit weekly karega aur uski report aapke Tower In-charge E"
+        }
+      ]
+    },
+    {
+      "id": "commercial_discipline",
+      "title": "Holding boundaries while offering controlled alternatives",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "first_relevant_rank": null,
+          "relevant_retrieved": 0
+        },
+        "5": {
+          "hit": 1,
+          "precision": 0.2,
+          "recall": 0.5,
+          "reciprocal_rank": 0.25,
+          "first_relevant_rank": 4,
+          "relevant_retrieved": 1
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.16666666666666666,
+          "recall": 0.5,
+          "reciprocal_rank": 0.25,
+          "first_relevant_rank": 4,
+          "relevant_retrieved": 1
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "2298d865ae71900c14cf49fc881bfbbbb5ea3fbb9c7a66012475e7f88581e581",
+          "relevant": false,
+          "score": 0.574653,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "G",
+          "row_start": 11,
+          "excerpt": "Sheet: Part 2 single moments\nx: G\nWhat the officer is doing: Answering the third tripartite push.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: Correctly enforces legal policy boundaries, but delivers a abrupt \"no\" without offering tangible risk mitigations.\nIf it is wrong, what would you say instead?: \"Yeh legal entity aur contract limit ka mamla hai. Par hum written w"
+        },
+        {
+          "rank": 2,
+          "id": "f51a269d554f2286b3f38f9505570e2f2ef8d8bfc60b48a0656f10f1c4a1792f",
+          "relevant": false,
+          "score": 0.566219,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP6",
+          "row_start": 9,
+          "excerpt": "Sheet: Transcript 2\nRow: SP6\nWhat it grades: 6. Commercial-clause discipline\nWhat to look for: Rate validity: difficult and explained, not promised and not slammed shut. Tripartite: held through all three pushes, ending on the real reason. Did he commit anything he does not hold?\nYour level: Developing\nWhy this level?: He repeatedly creates expectations before verifying whether he can honour them."
+        },
+        {
+          "rank": 3,
+          "id": "962c70df50d39ae20669a61e522ddd170f42b173bf9ff4761117277fd9481309",
+          "relevant": false,
+          "score": 0.564209,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "D",
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nx: D\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: Promises weekly reports and coordination.\nIf it is wrong, what would you say instead?: \"Har hafte site visit aur report ke alawa, hum application shuru hone se pehle surface readiness sign-off karenge aur M+L payment ke agai"
+        },
+        {
+          "rank": 4,
+          "id": "6e8ae0c2bd0d308fbd1d621da07f2f60983d21aed207aba9c7ecf9e55ec88705",
+          "relevant": true,
+          "score": 0.557013,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP6",
+          "row_start": 9,
+          "excerpt": "Sheet: Transcript 1\nRow: SP6\nWhat it grades: 6. Commercial-clause discipline\nWhat to look for: Rate validity: difficult and explained, not promised and not slammed shut. Tripartite: held through all three pushes, ending on the real reason. Did he commit anything he does not hold?\nYour level: Expert\nWhy this level?: This is a particularly important Expert behaviour. Ranjit pushes him on both clause"
+        },
+        {
+          "rank": 5,
+          "id": "c0c8d5582c08a7f0c7b1d3173f8882ed8eab3c407658943efaa2b0e3b1d09a11",
+          "relevant": false,
+          "score": 0.543803,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": null,
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: here he talked about the weekly report and coordination and give him assurance we are here.\nIf it is wrong, what would you say instead?: “Sir, humara representative site visit weekly karega aur uski report aapke Tower In-charge E"
+        },
+        {
+          "rank": 6,
+          "id": "a4871aaf8114a6942a89df6f5d0f9bf83b0fe74afc2f96abb22d4107359f1d78",
+          "relevant": false,
+          "score": 0.539537,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: It is not correct to blame the competition without having any proof or a specific incident to support the statement. Giving random or unsubstantiated reasons can make it appear that you are saying it just for the sake of s"
+        }
+      ]
+    },
+    {
+      "id": "strong_close",
+      "title": "Specific deliverables, timing, and next meeting",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        },
+        "5": {
+          "hit": 1,
+          "precision": 0.2,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.16666666666666666,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "bde5008e86d2bc42f3415c7846f8e20295f01574734cf2f29cd51b3e22d540e8",
+          "relevant": false,
+          "score": 0.645928,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "Outcome",
+          "row_start": 14,
+          "excerpt": "Sheet: Transcript 1\nRow: Outcome\nWhat to look for: Full win\nYour level: Ranjit specifically asks for the revised quotation, including the suggestions, and Amit establishes a forward step: he will send the quotation by the next evening and call two days later to take a time for the next meeting, with the applicator joining. At 09:44–10:19, Ranjit agrees to the revised quotation and follow-up."
+        },
+        {
+          "rank": 2,
+          "id": "6bc9b6c8262f7b52eced8815b6e967ce10f80efc6b81baf43a871e90e94ce031",
+          "relevant": false,
+          "score": 0.636917,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP7",
+          "row_start": 10,
+          "excerpt": "Sheet: Transcript 2\nRow: SP7\nWhat it grades: 7. Close craft and commitment specificity\nWhat to look for: Did he get the revised quotation asked for, name what he sends and when, and get a forward step with a real timeframe? Or did he accept 'mail the details'?\nYour level: Competent\nWhy this level?: He does secure specific deliverables and a deadline, which is good. However, there is no genuine for"
+        },
+        {
+          "rank": 3,
+          "id": "d02944332dbde62b5f6ee1f37af9d3cb81323666350a08df5ab4c60beca9fe04",
+          "relevant": true,
+          "score": 0.620985,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP7",
+          "row_start": 10,
+          "excerpt": "Sheet: Transcript 1\nRow: SP7\nWhat it grades: 7. Close craft and commitment specificity\nWhat to look for: Did he get the revised quotation asked for, name what he sends and when, and get a forward step with a real timeframe? Or did he accept 'mail the details'?\nYour level: Expert\nWhy this level?: He converts “send details” into specific deliverables + deadline + next interaction. He also plans to b"
+        },
+        {
+          "rank": 4,
+          "id": "e9f89b71753f51b91da4c15bbdbb6ad79f735c4259782263ad3f649983db2ede",
+          "relevant": false,
+          "score": 0.602705,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nx: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Weakly asks the buyer to name their target price (\"aap hi bata dijiye kitne pe kar sakte hain\"), surrendering price authority.\nIf it is wrong, what would you say instead?: \"Ji sir. Main revised quotation and comparison sheet shaam tak mail kar"
+        },
+        {
+          "rank": 5,
+          "id": "acfdcb4a21b9bee4153018f65a04a1887cfdf3633bec36387eed3a028a59bc23",
+          "relevant": false,
+          "score": 0.575994,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Waise sir aap hi bata dijiye kitne pe kar sakte hain, main us hisaab se bhej deta hoon.\nHe is allowing the builder to set the benchmark rather than presenting a justified commercial proposal.\nIf it is wrong, what would you say instead?:"
+        },
+        {
+          "rank": 6,
+          "id": "f9ddf5a4881a7f2203375b616026853c893715fd31da2aec8ae22c45bcfbb69b",
+          "relevant": false,
+          "score": 0.557147,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP2",
+          "row_start": 5,
+          "excerpt": "Sheet: Transcript 1\nRow: SP2\nWhat it grades: 2. Two-proposal craft\nWhat to look for: Did he give a spec-compliant proposal AND a costed upgrade as the buyer's choice, with a comparison sheet, without attacking the written specification?\nYour level: Expert\nWhy this level?: He does not challenge the specification. He gives Ranjit a compliant option and an alternative, makes the cost difference visib"
+        }
+      ]
+    },
+    {
+      "id": "weak_close",
+      "title": "Accepting send-details without a dated next step",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 1
+        },
+        "5": {
+          "hit": 1,
+          "precision": 0.2,
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 1
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.16666666666666666,
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "first_relevant_rank": 1,
+          "relevant_retrieved": 1
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "6bc9b6c8262f7b52eced8815b6e967ce10f80efc6b81baf43a871e90e94ce031",
+          "relevant": true,
+          "score": 0.56473,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP7",
+          "row_start": 10,
+          "excerpt": "Sheet: Transcript 2\nRow: SP7\nWhat it grades: 7. Close craft and commitment specificity\nWhat to look for: Did he get the revised quotation asked for, name what he sends and when, and get a forward step with a real timeframe? Or did he accept 'mail the details'?\nYour level: Competent\nWhy this level?: He does secure specific deliverables and a deadline, which is good. However, there is no genuine for"
+        },
+        {
+          "rank": 2,
+          "id": "962c70df50d39ae20669a61e522ddd170f42b173bf9ff4761117277fd9481309",
+          "relevant": false,
+          "score": 0.533669,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "D",
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nx: D\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: Promises weekly reports and coordination.\nIf it is wrong, what would you say instead?: \"Har hafte site visit aur report ke alawa, hum application shuru hone se pehle surface readiness sign-off karenge aur M+L payment ke agai"
+        },
+        {
+          "rank": 3,
+          "id": "1af5b8441784fbcba032625b53a78f95e513f88999583038702d5d30c2054f35",
+          "relevant": false,
+          "score": 0.517693,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "Outcome",
+          "row_start": 14,
+          "excerpt": "Sheet: Transcript 2\nRow: Outcome\nWhat to look for: Partial win\nYour level: Ranjit asks for specific items: completed project list, applicator list and comparison. Sandeep commits to sending them “kal tak.” However, there is no forward meeting or specific follow-up time established. This fits the definition of Partial: specific things asked for, but nothing moving forward."
+        },
+        {
+          "rank": 4,
+          "id": "e9f89b71753f51b91da4c15bbdbb6ad79f735c4259782263ad3f649983db2ede",
+          "relevant": false,
+          "score": 0.512579,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nx: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Weakly asks the buyer to name their target price (\"aap hi bata dijiye kitne pe kar sakte hain\"), surrendering price authority.\nIf it is wrong, what would you say instead?: \"Ji sir. Main revised quotation and comparison sheet shaam tak mail kar"
+        },
+        {
+          "rank": 5,
+          "id": "d02944332dbde62b5f6ee1f37af9d3cb81323666350a08df5ab4c60beca9fe04",
+          "relevant": false,
+          "score": 0.507895,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP7",
+          "row_start": 10,
+          "excerpt": "Sheet: Transcript 1\nRow: SP7\nWhat it grades: 7. Close craft and commitment specificity\nWhat to look for: Did he get the revised quotation asked for, name what he sends and when, and get a forward step with a real timeframe? Or did he accept 'mail the details'?\nYour level: Expert\nWhy this level?: He converts “send details” into specific deliverables + deadline + next interaction. He also plans to b"
+        },
+        {
+          "rank": 6,
+          "id": "bde5008e86d2bc42f3415c7846f8e20295f01574734cf2f29cd51b3e22d540e8",
+          "relevant": false,
+          "score": 0.503823,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "Outcome",
+          "row_start": 14,
+          "excerpt": "Sheet: Transcript 1\nRow: Outcome\nWhat to look for: Full win\nYour level: Ranjit specifically asks for the revised quotation, including the suggestions, and Amit establishes a forward step: he will send the quotation by the next evening and call two days later to take a time for the next meeting, with the applicator joining. At 09:44–10:19, Ranjit agrees to the revised quotation and follow-up."
+        }
+      ]
+    },
+    {
+      "id": "unsupported_metric",
+      "title": "Unverifiable 95 percent performance claim",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        },
+        "5": {
+          "hit": 1,
+          "precision": 0.2,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.16666666666666666,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "962c70df50d39ae20669a61e522ddd170f42b173bf9ff4761117277fd9481309",
+          "relevant": false,
+          "score": 0.53931,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "D",
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nx: D\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: Promises weekly reports and coordination.\nIf it is wrong, what would you say instead?: \"Har hafte site visit aur report ke alawa, hum application shuru hone se pehle surface readiness sign-off karenge aur M+L payment ke agai"
+        },
+        {
+          "rank": 2,
+          "id": "c0c8d5582c08a7f0c7b1d3173f8882ed8eab3c407658943efaa2b0e3b1d09a11",
+          "relevant": false,
+          "score": 0.534825,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": null,
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: here he talked about the weekly report and coordination and give him assurance we are here.\nIf it is wrong, what would you say instead?: “Sir, humara representative site visit weekly karega aur uski report aapke Tower In-charge E"
+        },
+        {
+          "rank": 3,
+          "id": "10f110aad31080d1d3efad14310cab046a4a0de697a8d8037cdb150e93b48360",
+          "relevant": true,
+          "score": 0.522733,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP8",
+          "row_start": 11,
+          "excerpt": "Sheet: Transcript 1\nRow: SP8\nWhat it grades: 8. Conversational dynamics and claim discipline\nWhat to look for: Did he answer the question actually asked? Courteous without flattery, no begging, no relationship appeals, nothing claimed outside what he can support?\nYour level: Competent\nWhy this level?: This is the one row I would not give Expert. The conversation is otherwise professional and respo"
+        },
+        {
+          "rank": 4,
+          "id": "947f18190ec7ffed2cfdfeb26122fc70981ed0e2db3aaa18c42e608ba222752b",
+          "relevant": false,
+          "score": 0.518337,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "Next action",
+          "row_start": 25,
+          "excerpt": "Sheet: Transcript 1\nRow: Next action\nYour level: Remove unsupported performance claims. At 03:40, he says proposed applicators deliver “95 percent projects” on time and without rework. When Ranjit challenges “95 percent?”, Amit only responds that their record is strong. Since the case specifically prohibits unsupported claims, tomorrow he should replace this with a verifiable project reference, do"
+        },
+        {
+          "rank": 5,
+          "id": "a4871aaf8114a6942a89df6f5d0f9bf83b0fe74afc2f96abb22d4107359f1d78",
+          "relevant": false,
+          "score": 0.512519,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "E",
+          "row_start": 9,
+          "excerpt": "Sheet: Part 2 single moments\nExchange: E\nWhat the officer is doing: Answering ten years of incumbency.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: It is not correct to blame the competition without having any proof or a specific incident to support the statement. Giving random or unsubstantiated reasons can make it appear that you are saying it just for the sake of s"
+        },
+        {
+          "rank": 6,
+          "id": "6bc9b6c8262f7b52eced8815b6e967ce10f80efc6b81baf43a871e90e94ce031",
+          "relevant": false,
+          "score": 0.512121,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP7",
+          "row_start": 10,
+          "excerpt": "Sheet: Transcript 2\nRow: SP7\nWhat it grades: 7. Close craft and commitment specificity\nWhat to look for: Did he get the revised quotation asked for, name what he sends and when, and get a forward step with a real timeframe? Or did he accept 'mail the details'?\nYour level: Competent\nWhy this level?: He does secure specific deliverables and a deadline, which is good. However, there is no genuine for"
+        }
+      ]
+    },
+    {
+      "id": "service_before_rate",
+      "title": "Performance and service substance before price",
+      "relevant_chunk_count": 2,
+      "metrics": {
+        "3": {
+          "hit": 1,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        },
+        "5": {
+          "hit": 1,
+          "precision": 0.2,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        },
+        "6": {
+          "hit": 1,
+          "precision": 0.16666666666666666,
+          "recall": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "first_relevant_rank": 3,
+          "relevant_retrieved": 1
+        }
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "c0c8d5582c08a7f0c7b1d3173f8882ed8eab3c407658943efaa2b0e3b1d09a11",
+          "relevant": false,
+          "score": 0.572085,
+          "source_file": "3 SP01 Calibration - Shubham (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": null,
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: here he talked about the weekly report and coordination and give him assurance we are here.\nIf it is wrong, what would you say instead?: “Sir, humara representative site visit weekly karega aur uski report aapke Tower In-charge E"
+        },
+        {
+          "rank": 2,
+          "id": "bde5008e86d2bc42f3415c7846f8e20295f01574734cf2f29cd51b3e22d540e8",
+          "relevant": false,
+          "score": 0.570744,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "Outcome",
+          "row_start": 14,
+          "excerpt": "Sheet: Transcript 1\nRow: Outcome\nWhat to look for: Full win\nYour level: Ranjit specifically asks for the revised quotation, including the suggestions, and Amit establishes a forward step: he will send the quotation by the next evening and call two days later to take a time for the next meeting, with the applicator joining. At 09:44–10:19, Ranjit agrees to the revised quotation and follow-up."
+        },
+        {
+          "rank": 3,
+          "id": "13e958ce79f139b5a5e1c9db5088db70b53a961bc3c01f61cdea65d355aea5eb",
+          "relevant": true,
+          "score": 0.570618,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 1",
+          "transcript": "Transcript 1",
+          "topic": "SP5",
+          "row_start": 8,
+          "excerpt": "Sheet: Transcript 1\nRow: SP5\nWhat it grades: 5. Rate deflection and service substance\nWhat to look for: Did he answer the rate question with performance AND specific service substance before quoting, and stay inside honest coverage and consumption?\nYour level: Expert\nWhy this level?: He doesn't evade the rate issue completely. He first establishes the value proposition through performance, supply "
+        },
+        {
+          "rank": 4,
+          "id": "e9f89b71753f51b91da4c15bbdbb6ad79f735c4259782263ad3f649983db2ede",
+          "relevant": false,
+          "score": 0.568148,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "H",
+          "row_start": 12,
+          "excerpt": "Sheet: Part 2 single moments\nx: H\nWhat the officer is doing: Closing the meeting.\nYour grade: Developing\nWhy. What does it cost, and when is it discovered?: Weakly asks the buyer to name their target price (\"aap hi bata dijiye kitne pe kar sakte hain\"), surrendering price authority.\nIf it is wrong, what would you say instead?: \"Ji sir. Main revised quotation and comparison sheet shaam tak mail kar"
+        },
+        {
+          "rank": 5,
+          "id": "962c70df50d39ae20669a61e522ddd170f42b173bf9ff4761117277fd9481309",
+          "relevant": false,
+          "score": 0.567847,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Part 2 single moments",
+          "transcript": null,
+          "topic": "D",
+          "row_start": 8,
+          "excerpt": "Sheet: Part 2 single moments\nx: D\nWhat the officer is doing: Saying what will be different this time.\nYour grade: Competent\nWhy. What does it cost, and when is it discovered?: Promises weekly reports and coordination.\nIf it is wrong, what would you say instead?: \"Har hafte site visit aur report ke alawa, hum application shuru hone se pehle surface readiness sign-off karenge aur M+L payment ke agai"
+        },
+        {
+          "rank": 6,
+          "id": "6bc9b6c8262f7b52eced8815b6e967ce10f80efc6b81baf43a871e90e94ce031",
+          "relevant": false,
+          "score": 0.554305,
+          "source_file": "3 SP01 Calibration - Nagendra (Blind Grading template).xlsx",
+          "sheet": "Transcript 2",
+          "transcript": "Transcript 2",
+          "topic": "SP7",
+          "row_start": 10,
+          "excerpt": "Sheet: Transcript 2\nRow: SP7\nWhat it grades: 7. Close craft and commitment specificity\nWhat to look for: Did he get the revised quotation asked for, name what he sends and when, and get a forward step with a real timeframe? Or did he accept 'mail the details'?\nYour level: Competent\nWhy this level?: He does secure specific deliverables and a deadline, which is good. However, there is no genuine for"
+        }
+      ]
+    }
+  ]
+}
