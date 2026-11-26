@@ -15,6 +15,7 @@ app = FastAPI(title="Wisdom Recommendation API", version="1.0.0")
 class RecommendationRequest(BaseModel):
     model_config = ConfigDict(extra="forbid", str_strip_whitespace=True)
     transcript: str = Field(min_length=1, max_length=50_000)
+    person: str = Field(min_length=1, max_length=80)
 
 
 @app.get("/health")
@@ -25,7 +26,7 @@ def health() -> dict:
 @app.post("/recommend")
 def recommend(request: RecommendationRequest) -> dict:
     try:
-        return recommend_wisdom(request.transcript)
+        return recommend_wisdom(request.transcript, request.person)
     except ValueError as error:
         raise HTTPException(status_code=400, detail=str(error)) from error
     except Exception as error:

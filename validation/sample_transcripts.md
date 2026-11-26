@@ -1,6 +1,6 @@
 # Manual test transcripts
 
-Paste any transcript below into the Streamlit interface. These are synthetic test conversations based on the SP01 scenario; they are not additional knowledge-base sources.
+Paste any transcript below into the Streamlit interface, then select the speaker who should receive feedback. These are synthetic test conversations based on the SP01 scenario; they are not additional knowledge-base sources.
 
 ## 1. Strong preparation and proposal choice
 

@@ -55,7 +55,7 @@ In a second terminal, start the UI:
 .\venv\Scripts\python.exe -m streamlit run src\app.py
 ```
 
-Open `http://localhost:8501`, paste a transcript, and select **Get wisdom**. API documentation is available at `http://127.0.0.1:8000/docs`.
+Open `http://localhost:8501`, paste a transcript, select a detected speaker, and select **Get feedback**. Both the transcript and target person are mandatory. API documentation is available at `http://127.0.0.1:8000/docs`.
 
 ## Ingestion scope
 
@@ -84,15 +84,19 @@ Keeping provenance as metadata makes every recommendation traceable without poll
 
 ```json
 {
-  "transcript": "Customer: ...\nOfficer: ..."
+  "transcript": "Customer: ...\nOfficer: ...",
+  "person": "Officer"
 }
 ```
 
 The response contains Markdown coaching and the retrieved evidence records. There is deliberately no history endpoint or conversation database.
 
-Recommendations are capped at 220 words and focus on the specific interaction: up to two things
-that worked, the two highest-impact improvements with ready-to-use replacement language, and one
-next action. Timestamps are used only when supplied in the transcript.
+The selected person must match a speaker label detected in the transcript. Feedback is restricted to
+that person and capped at 150 words. Every response contains three concise sections: what the person
+did well, up to two specific improvements with reusable **Try this:** wording, and what the person
+should communicate in the next meeting based on unresolved points in the current conversation. If
+no supported improvement is found, the response explicitly says no improvement is required while
+still highlighting what the person did well and the appropriate next-conversation focus.
 
 The external OpenAI calls used by ingestion and recommendations require the API key in `.env`.
 
